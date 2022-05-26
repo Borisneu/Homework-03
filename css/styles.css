@@ -255,6 +255,10 @@ body {
   padding-left: 0;
 }
 
+.team .item {
+  padding-bottom: 30px;
+}
+
 .team .item + .item {
   margin-left: 30px;
 }
@@ -326,6 +330,8 @@ body {
 }
 
 .portfolio-images .item {
+  /* padding-left: 24px;
+  padding-bottom: 20px; */
   border: 1px solid #eeeeee;
 }
 
@@ -337,6 +343,9 @@ body {
   margin-left: 30px;
 }
 .portfolio-images .title {
+  margin-top: 20px;
+  margin-left: 24px;
+
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
@@ -344,6 +353,9 @@ body {
 }
 
 .portfolio-images p {
+  margin-left: 24px;
+  margin-bottom: 20px;
+
   color: var(--paragraph-color);
   font-size: 16px;
   font-weight: 400;
